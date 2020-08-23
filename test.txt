@@ -1,0 +1,27 @@
+COMMANDS
+
+
+./grep pattern filenames
+./grep -v pattern filenames
+./grep -i pattern filenames
+./grep -c pattern filenames
+./grep -w pattern filenames
+./grep -m NUM pattern filenames
+./grep -r pattern
+./grep -l pattern
+./grep -h pattern filenames
+./grep -H pattern filenames
+./grep -n pattern filenames
+./grep -e pattern file1 -e pattern2 file2
+./grep -q pattern filename
+
+COMBINATIONS
+
+./grep -[all possible permutation with -v-c-i-n-w-h-H] pattern filename 
+./grep -nm NUM pattern filename
+./grep -im NUM pattern filename
+./grep -wm NUM pattern filename
+./grep -vm NUM pattern filename
+./grep -r[any permutation with -i-c-n-v-w-l-h-H] pattern [directorys name]
+./grep -l[any permutaion with -i-c-n-v-w-r -h -H] pattern
+./grep -e[mode to be performed on file1 with -v-c-i-w-h-H] pattern file1 [-e[mode to be performed on file2 with -v-c-i-n-w-h-H] pattern file2]
